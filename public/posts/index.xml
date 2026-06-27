@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Posts on My Hobby Blog</title>
+		<link>https://yourusername.github.io/myblog/posts/</link>
+		<description>Recent content in Posts on My Hobby Blog</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 27 Jun 2026 20:27:31 +0530</lastBuildDate>
+		
+			<atom:link href="https://yourusername.github.io/myblog/posts/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>5 AI Agent Terms</title>
+				<link>https://yourusername.github.io/myblog/posts/5-ai-agent-terms/</link>
+				<pubDate>Sat, 27 Jun 2026 20:27:31 +0530</pubDate>
+				<guid>https://yourusername.github.io/myblog/posts/5-ai-agent-terms/</guid>
+				<description>&lt;p&gt;Hello everyone! This is the first post in my “TIL (Today I Learned)” series. Today, I want to share 5 simple terms that are useful to know when working with AI agents.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;agents.md — This file gives the agent its main job and high-level instructions. It answers: “What should this agent do?”&lt;/li&gt;&#xA;&lt;li&gt;skills.md — This file contains reusable knowledge or steps for doing specific tasks. It answers: “How should this agent do that task?”&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;For example, agents.md might say, “Help the user write and send a follow-up email.” Skills.md might contain the steps for writing a clear email, choosing a polite tone, and attaching the right file.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

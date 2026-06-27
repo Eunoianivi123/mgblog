@@ -1,0 +1,36 @@
+baseURL = 'https://yourusername.github.io/myblog/'
+languageCode = 'en-us'
+title = "My Hobby Blog"
+theme = 'terminal'
+paginate = 5
+
+[params]
+  contentTypeName = "posts"
+  themeColor = "green"      # orange, green, blue, red, pink, etc.
+  showMenuItems = 2
+  fullWidthTheme = false
+  centerTheme = false
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "My Hobby Blog"
+    subtitle = "A minimal, retro blog"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    [languages.en.params]
+      [languages.en.params.logo]
+        logoText = "cd ~/myblog"
+        logoHomeLink = "/"
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "about"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "showcase"
+        name = "showcase"
+        url = "/showcase"
