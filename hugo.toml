@@ -1,4 +1,4 @@
-baseURL = 'https://eunoianivi123.github.io/myblog/'
+baseURL = 'https://eunoianivi123.github.io/mgblog/'
 languageCode = 'en-us'
 title = "My Hobby Blog"
 theme = 'terminal'
