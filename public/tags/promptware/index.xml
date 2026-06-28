@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>My Hobby Blog</title>
-		<link>http://localhost:1313/mgblog/</link>
-		<description>Recent content on My Hobby Blog</description>
+		<title>Promptware on My Hobby Blog</title>
+		<link>http://localhost:1313/mgblog/tags/promptware/</link>
+		<description>Recent content in Promptware on My Hobby Blog</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
@@ -12,20 +12,13 @@
 		
 			<lastBuildDate>Sun, 28 Jun 2026 10:00:00 +0530</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/mgblog/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/mgblog/tags/promptware/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Promptware Kill Chain</title>
 				<link>http://localhost:1313/mgblog/posts/promptware-kill-chain/</link>
 				<pubDate>Sun, 28 Jun 2026 10:00:00 +0530</pubDate>
 				<guid>http://localhost:1313/mgblog/posts/promptware-kill-chain/</guid>
 				<description>&lt;p&gt;Hello everyone — this is the second post in my “TIL (Today I Learned)” series. Today I want to share the concept of the promptware kill chain.&lt;/p&gt;&#xA;&lt;p&gt;Like malware (malicious software) and ransomware (messages with a demand to pay), we now face promptware.&lt;/p&gt;&#xA;&lt;p&gt;Promptware is the practice of injecting malicious or misleading information into a system that an LLM relies on.&lt;/p&gt;&#xA;&lt;p&gt;The promptware kill chain includes the following stages:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Initial Access — Initial access can be obtained directly or indirectly. Direct access happens when an attacker injects malicious prompts; indirect access happens when incorrect or manipulated content (context) is added to the data the model uses.&lt;/li&gt;&#xA;&lt;li&gt;Privilege Escalation — By instructing the LLM to assume certain roles or behave in ways that bypass safeguards, an attacker can cause the model to ignore constraints and perform harmful actions.&lt;/li&gt;&#xA;&lt;li&gt;Reconnaissance — Attackers can probe and abuse the model&amp;rsquo;s APIs, plugins, and other endpoints to discover capabilities and additional attack surfaces.&lt;/li&gt;&#xA;&lt;li&gt;Persistence — Instead of relying on session-only prompts, attackers can inject malicious content into persistent data or knowledge stores. Manipulative prompts may disappear after a session, but injected data can be repeatedly referenced by the LLM and cause ongoing malicious behavior.&lt;/li&gt;&#xA;&lt;li&gt;Lateral Movement — Once an attacker has a foothold, they can move laterally across other systems and software that the model can access, expanding the scope of the compromise.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;A model&amp;rsquo;s greatest strength — its interconnectedness — is also its greatest weakness.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>5 AI Agent Terms</title>
-				<link>http://localhost:1313/mgblog/posts/5-ai-agent-terms/</link>
-				<pubDate>Sat, 27 Jun 2026 20:27:31 +0530</pubDate>
-				<guid>http://localhost:1313/mgblog/posts/5-ai-agent-terms/</guid>
-				<description>&lt;p&gt;Hello everyone! This is the first post in my “TIL (Today I Learned)” series. Today, I want to share 5 simple terms that are useful to know when working with AI agents.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;agents.md — This file gives the agent its main job and high-level instructions. It answers: “What should this agent do?”&lt;/li&gt;&#xA;&lt;li&gt;skills.md — This file contains reusable knowledge or steps for doing specific tasks. It answers: “How should this agent do that task?”&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;For example, agents.md might say, “Help the user write and send a follow-up email.” Skills.md might contain the steps for writing a clear email, choosing a polite tone, and attaching the right file.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

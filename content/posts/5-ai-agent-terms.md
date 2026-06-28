@@ -4,7 +4,7 @@ date = "2026-06-27T20:27:31+05:30"
 #dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
 author = ""
 authorTwitter = "" #do not include @
-cover = ""
+cover = "ai-agent.jpeg"
 tags = ["", ""]
 keywords = ["", ""]
 description = ""
@@ -25,4 +25,3 @@ For example, agents.md might say, “Help the user write and send a follow-up em
 5. Subagents — These are smaller helper agents connected to a main agent. They can take on part of the work, which makes the process faster and easier to manage.
 
 Thank you for reading! Happy Learning!
-
